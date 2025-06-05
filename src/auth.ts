@@ -48,5 +48,6 @@ export async function loginAndGetCookies(): Promise<string> {
   if (!allCookies) {
     throw new Error("No cookies received after login");
   }
+
   return allCookies;
 }
